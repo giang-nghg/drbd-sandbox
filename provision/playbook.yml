@@ -28,7 +28,7 @@
   # add repos
   #
   - name: ensure elrepo repo is present
-    yum: name=http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
+    yum: name=http://www.elrepo.org/elrepo-release-7.0-3.el7.elrepo.noarch.rpm
 
   - name: ensure elrepo key is imported
     rpm_key: state=present key=https://www.elrepo.org/RPM-GPG-KEY-elrepo.org
