@@ -25,6 +25,12 @@
   tasks:
 
   #
+  # update python
+  #
+  - name: ensure Python is up-to-date
+    yum: name=python state=latest
+
+  #
   # add repos
   #
   - name: ensure elrepo repo is present
